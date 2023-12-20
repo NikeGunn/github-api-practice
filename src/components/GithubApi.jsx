@@ -63,6 +63,7 @@ const GitHubCard = () => {
             <Card.Text>{userData.bio || 'No bio available.'}</Card.Text>
             <Card.Text>Followers: {userData.followers}</Card.Text>
             <Card.Text>Following: {userData.following}</Card.Text>
+            <Card.Text>Type: {userData.type}</Card.Text>
           </Card.Body>
         </>
       )}
